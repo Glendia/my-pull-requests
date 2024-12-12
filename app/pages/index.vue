@@ -20,10 +20,10 @@ useHead({
 })
 const url = useRequestURL()
 useSeoMeta({
-  title: `${user.name} is Contributing`,
-  description: `Discover ${user.name} recent pull requests on GitHub.`,
-  ogTitle: `${user.name} is Contributing`,
-  ogDescription: `Discover ${user.name} recent pull requests on GitHub.`,
+  title: `${user.name} 正在做出贡献`,
+  description: `${user.name} 最近在 Github 上的拉取请求`,
+  ogTitle: `${user.name} 正在做出贡献`,
+  ogDescription: `${user.name} 最近在 Github 上的拉取请求`,
   twitterCard: 'summary_large_image',
   ogImage: `${url.origin}/og.png`,
   twitterImage: `${url.origin}/og.png`,
@@ -43,11 +43,11 @@ useSeoMeta({
         <a :href="userUrl" target="_blank">
           {{ user.name }}
         </a>
-        is <span class="animate-pulse">Contributing...</span>
+        <span class="animate-pulse">正在做成出贡献</span>
       </h1>
       <p class="text-center text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300">
         <NuxtLink :to="userUrl" target="_blank">
-          @{{ user.username }}'s recent pull requests on GitHub.
+          @{{ user.username }} 最近在 Github 上的拉取请求
         </NuxtLink>
       </p>
       <div class="flex items-center justify-center gap-1 text-gray-700 dark:text-gray-300">
