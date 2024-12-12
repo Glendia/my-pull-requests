@@ -43,7 +43,7 @@ useSeoMeta({
         <a :href="userUrl" target="_blank">
           {{ user.name }}
         </a>
-        <span class="animate-pulse">正在做成出贡献</span>
+        <span class="animate-pulse">正在做出贡献</span>
       </h1>
       <p class="text-center text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300">
         <NuxtLink :to="userUrl" target="_blank">
