@@ -1,7 +1,7 @@
 <script setup>
 useHead({
   htmlAttrs: {
-    lang: 'en',
+    lang: 'zh-CN',
   },
 })
 </script>
@@ -16,7 +16,7 @@ useHead({
       size="xs"
       icon="i-simple-icons-github"
     >
-      Create my own contributions page
+      Github
     </UButton>
   </p>
   <ScrollToTop />
